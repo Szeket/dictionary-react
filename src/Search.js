@@ -4,7 +4,7 @@ import "./Search.css";
 
 export default function Search() {
   let [keyword, setKeyword] = useState("");
-  
+
   function handleResponse(response) {
     console.log(response.data[0]);
   }
@@ -33,7 +33,7 @@ export default function Search() {
             />
           </form>
           <div className="col-sm">
-            <input type="submit" value="search" className="btn btn-primary" />
+            <input type="submit" value="Search" className="btn btn-primary" />
           </div>
         </div>
       </div>
