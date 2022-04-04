@@ -3,11 +3,9 @@
 }
 
 .App .logo {
-  border-radius: 40%;
+  position: relative;
+  top: 10px;
+  border-radius: 45%;
   margin: 0 auto;
-}
-.App .form {
-  max-width: 30%;
-  display: block;
-  margin: 0 auto;
+  box-shadow: 0px 8px 6px rgb(192, 190, 190);
 }
