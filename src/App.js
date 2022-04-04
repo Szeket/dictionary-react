@@ -1,3 +1,4 @@
+import React from "react";
 import panda from "./panda.jpg";
 import Search from "./Search";
 import "./App.css";

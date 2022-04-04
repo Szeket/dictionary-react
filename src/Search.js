@@ -4,11 +4,12 @@ import "./Search.css";
 
 export default function Search() {
   let [keyword, setKeyword] = useState("");
-  function searchWord(event) {
-    event.preventDefault();
-  }
+  
   function handleResponse(response) {
     console.log(response.data[0]);
+  }
+  function searchWord(event) {
+    event.preventDefault();
   }
 
   let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
