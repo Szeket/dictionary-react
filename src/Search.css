@@ -1,0 +1,16 @@
+.App {
+  background-color: aqua;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.App form {
+  max-width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+.btn {
+  display: block;
+  margin: 0 auto;
+}

@@ -6,3 +6,8 @@
   border-radius: 40%;
   margin: 0 auto;
 }
+.App .form {
+  max-width: 30%;
+  display: block;
+  margin: 0 auto;
+}
