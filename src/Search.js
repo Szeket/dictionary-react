@@ -1,15 +1,21 @@
 import React, { useState } from "react";
+import axios from "axios";
 import "./Search.css";
 
 export default function Search() {
   let [keyword, setKeyword] = useState("");
   function searchWord(event) {
     event.preventDefault();
-    alert(`Searching for ${keyword}`);
   }
+
+  let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+  axios.get(apiUrl).then(handleResponse);
+  console.log(response.data[0]);
+
   function handleChange(event) {
     setKeyword(event.target.value);
   }
+
   return (
     <div className="container">
       <div className="row">
@@ -24,11 +30,7 @@ export default function Search() {
             />
           </form>
           <div className="col-sm">
-            <input
-              type="submit"
-              value="search"
-              className="btn btn-primary w-20"
-            />
+            <input type="submit" value="search" className="btn btn-primary" />
           </div>
         </div>
       </div>

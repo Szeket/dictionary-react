@@ -6,11 +6,18 @@
 }
 
 .App form {
-  max-width: 30%;
   display: block;
   margin: 0 auto;
+  padding: 10px;
+  max-width: 40%;
 }
+
 .btn {
   display: block;
   margin: 0 auto;
+  width: 20%;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  cursor: pointer;
 }
