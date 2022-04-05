@@ -55,7 +55,7 @@ export default function Search() {
         <a
           href="https://github.com/Szeket/dictionary-react"
           target="_blank"
-          alt="#"
+          rel="noopener noreferrer"
         >
           {" "}
           Szeket
