@@ -10,12 +10,17 @@ export default function Search() {
   function handleResponse(response) {
     setResults(response.data[0]);
   }
-  function searchWord(event) {
-    event.preventDefault();
+
+  function handleError() {
+    alert("dunno buddy");
   }
 
-  let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-  axios.get(apiUrl).then(handleResponse);
+  function searchWord(event) {
+    event.preventDefault();
+
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+    axios.get(apiUrl).then(handleResponse, handleError);
+  }
 
   function handleChange(event) {
     setKeyword(event.target.value);
@@ -34,11 +39,11 @@ export default function Search() {
               onChange={handleChange}
             />
           </form>
-          <Results results={results} />
           <div className="col-sm">
             <input type="submit" value="Search" className="btn btn-primary" />
           </div>
         </div>
+        <Results results={results} />
       </div>
     </div>
   );
