@@ -24,3 +24,11 @@
   cursor: pointer;
   box-shadow: 2px 2px rgb(192, 188, 188);
 }
+footer {
+  text-align: center;
+  padding-top: 25px;
+}
+a {
+  color: #8b8d8c;
+  text-decoration: none;
+}

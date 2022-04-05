@@ -49,6 +49,18 @@ export default function Search() {
         </div>
         <Results results={results} />
       </div>
+
+      <footer>
+        Coded with ❤️ by
+        <a
+          href="https://github.com/Szeket/dictionary-react"
+          target="_blank"
+          alt="#"
+        >
+          {" "}
+          Szeket
+        </a>
+      </footer>
     </div>
   );
 }
