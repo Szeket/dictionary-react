@@ -39,8 +39,12 @@ export default function Search() {
               onChange={handleChange}
             />
           </form>
-          <div className="col-sm">
-            <input type="submit" value="Search" className="btn btn-primary" />
+          <div className="d-grid gap-2 d-md-block">
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-outine-primary"
+            />
           </div>
         </div>
         <Results results={results} />
