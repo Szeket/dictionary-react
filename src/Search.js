@@ -51,7 +51,11 @@ export default function Search() {
       </div>
 
       <footer>
-        Coded with ❤️ by
+        Coded with{" "}
+        <span role="img" aria-label="heart">
+          ❤️
+        </span>
+        by
         <a
           href="https://github.com/Szeket/dictionary-react"
           target="_blank"
