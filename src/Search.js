@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Search.css";
+import Results from "./Results";
 
 export default function Search() {
   let [keyword, setKeyword] = useState("");
+  let [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data[0]);
+    setResults(response.data[0]);
   }
   function searchWord(event) {
     event.preventDefault();
@@ -32,6 +34,7 @@ export default function Search() {
               onChange={handleChange}
             />
           </form>
+          <Results results={results} />
           <div className="col-sm">
             <input type="submit" value="Search" className="btn btn-primary" />
           </div>

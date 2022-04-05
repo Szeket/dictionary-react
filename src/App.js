@@ -9,7 +9,7 @@ function App() {
       <div className="container">
         <header className="App-header">
           <img src={panda} className="logo d-block img-fluid" alt="logo"></img>
-          <h1>Panda World Dictionary</h1>
+          <h1>Panda Dictionary</h1>
         </header>
         <Search />
       </div>
