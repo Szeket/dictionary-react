@@ -47,6 +47,7 @@ export default function Search() {
             />
           </div>
         </div>
+
         <Results results={results} />
       </div>
 

@@ -1,32 +1,43 @@
 .App {
-  background-color: #edf2f7;
-  border-radius: 5px;
-  margin: 70px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  border: 1px #a9bbcd solid;
+  text-align: center;
+  margin: 20px;
+}
+.App section {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #b3c3d3;
+  margin: 25px;
 }
 
 .App .form-control {
+  background-color: #f3f7ff;
+  border-radius: 10px;
   display: block;
   margin: 0 auto;
+  box-shadow: 0px 3px 3px #a9bbcd;
   border-radius: 40px;
-  font-size: 24px;
+  font-size: 23px;
   max-width: 70%;
+  padding: 15px;
 }
 
 .btn {
   display: block;
   margin: 0 auto;
+  border-radius: 7px;
   margin-bottom: 10px;
   margin-top: 10px;
   width: 200px;
-
   font-size: 15px;
-  border: 1px solid grey;
+  border: 1px solid #a9bbcd;
   cursor: pointer;
   box-shadow: 2px 2px rgb(192, 188, 188);
 }
 footer {
   text-align: center;
-  padding-top: 25px;
+  padding: 25px;
 }
 a {
   color: #8b8d8c;
