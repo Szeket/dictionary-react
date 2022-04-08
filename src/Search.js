@@ -62,7 +62,7 @@ export default function Search() {
           rel="noopener noreferrer"
         >
           {" "}
-          Szeket
+          <small>Szeket</small>
         </a>
       </footer>
     </div>
