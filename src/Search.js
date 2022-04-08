@@ -38,14 +38,14 @@ export default function Search() {
               autoFocus="on"
               onChange={handleChange}
             />
+            <div className="d-grid gap-2 d-md-block">
+              <input
+                type="submit"
+                value="Search"
+                className="btn btn-outine-primary"
+              />
+            </div>
           </form>
-          <div className="d-grid gap-2 d-md-block">
-            <input
-              type="submit"
-              value="Search"
-              className="btn btn-outine-primary"
-            />
-          </div>
         </div>
 
         <Results results={results} />
