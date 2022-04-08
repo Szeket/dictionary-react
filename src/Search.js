@@ -54,7 +54,7 @@ export default function Search() {
       <footer>
         Coded with{" "}
         <span role="img" aria-label="heart">
-          ❤️
+          ❤️{" "}
         </span>
         by
         <a

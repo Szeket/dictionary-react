@@ -2,12 +2,12 @@
   background-color: #ffffff;
   border-radius: 7px;
   border: 1px #a9bbcd solid;
-  text-align: center;
+  line-height: 2;
   margin: 20px;
 }
 .App section {
   border-radius: 10px;
-  box-shadow: 5px 5px 5px #b3c3d3;
+  box-shadow: 0px 5px 5px #b3c3d3;
   margin: 25px;
 }
 
@@ -16,7 +16,7 @@
   border-radius: 10px;
   display: block;
   margin: 0 auto;
-  box-shadow: 0px 3px 3px #a9bbcd;
+  box-shadow: 0px 3px 3px #b3c3d3;
   border-radius: 40px;
   font-size: 23px;
   max-width: 70%;
