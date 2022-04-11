@@ -4,6 +4,8 @@
   border: 1px #a9bbcd solid;
   line-height: 2;
   margin: 20px;
+  font-family: "Azeret Mono", monospace;
+  font-family: "Lato", sans-serif;
 }
 .App section {
   border-radius: 10px;
@@ -22,6 +24,11 @@
   max-width: 70%;
   padding: 15px;
 }
+@media (max-width: 600px) {
+  .App .form-control {
+    font-size: 12px;
+  }
+}
 
 .btn {
   display: block;
@@ -32,13 +39,12 @@
   width: 200px;
   font-size: 15px;
   border: 1px solid #a9bbcd;
-
   box-shadow: 2px 2px rgb(192, 188, 188);
 }
 .btn:hover {
   cursor: pointer;
-  background: #f3f7ff;
-  opacity: 1;
+  background: #648fba;
+  opacity: all 0.15s ease-in-out;
 }
 footer {
   text-align: center;

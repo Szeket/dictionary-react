@@ -11,7 +11,7 @@ function App() {
           <img src={panda} className="logo d-block img-fluid" alt="logo"></img>
           <h1>Panda Dictionary</h1>
         </header>
-        <Search />
+        <Search defaultKeyword="panda" />
       </div>
     </div>
   );
