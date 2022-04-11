@@ -24,7 +24,7 @@ export default function Search(props) {
     axios.get(apiUrl).then(handleResponse);
 
     let pexelsApi = "563492ad6f917000010000011a672010c22e4258af0b83106e556d10";
-    let pexelsUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
+    let pexelsUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
     axios
       .get(pexelsUrl, { headers: { Authorization: `Bearer ${pexelsApi}` } })
       .then(handlePexelsResponse);
