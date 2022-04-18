@@ -1,5 +1,5 @@
 import React from "react";
-import panda from "./panda.jpg";
+import search from "./search.jpg";
 import Search from "./Search";
 import "./App.css";
 
@@ -8,10 +8,10 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img src={panda} className="logo d-block img-fluid" alt="logo"></img>
-          <h1>Panda Dictionary</h1>
+          <img src={search} className="logo d-block img-fluid" alt="logo"></img>
+          <h1>Dictionary</h1>
         </header>
-        <Search defaultKeyword="panda" />
+        <Search defaultKeyword="map" />
       </div>
     </div>
   );
