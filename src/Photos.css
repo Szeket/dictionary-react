@@ -1,5 +1,4 @@
-.Photos img {
-  border-radius: 5px;
-  margin: 10px;
+.Photos .img-fluid {
+  border-radius: 15px;
   padding: 10px;
 }
